@@ -3,8 +3,8 @@ body{
     margin     : 0;
     font-family: helvetica;
 }
-
 /*================HEADER==============*/
+
 #header{
       position: fixed;
       top    : 0px;
@@ -33,8 +33,7 @@ body{
     z-index: 500;
     width: 100%;
     height: 40px;
-    background-color: darkgreen;
-        
+    background-color: darkgreen;     
 }
 
 #tabs-top a{
@@ -46,7 +45,7 @@ body{
     color: white;
     text-align: center;
     text-decoration: none;
-    padding-top: 12px;
+    padding-top:12px;
 }
 
 /*================MAIN-HOME==============*/
@@ -66,13 +65,12 @@ body{
     width: 100%;
     height: 40px;
     background-color: forestgreen;
-    
 }
 
 #tabs-bottom a{
     float: left;
     display:block;
-    width: 50%;
+    width: 35%;
     height: 33px;
     font-weight: 700;
     color: white;
@@ -86,32 +84,32 @@ body{
 
 #main{
     margin-top: 119px;
+    margin-bottom: 119px;
     background: url('images/map-blur.png');
-    background-repeat: repeat-y;
-    
+    background-repeat: repeat-y;   
 }
 
 #content{
     padding-top: 1px;
     padding-bottom: 50px;
-    
 }
 
-/*================INFO BOX==============*/
+/*================INFO-BOX==============*/
 
 a.info-box{
-    text-decoration: none;
-    background: rgba(255,255,255 .8);
+    text-decoration:none;
+    background: rgba(255,255,255, .8);
     width: 90%;
     height: 90px;
     display: block;
     margin: auto;
-    margin-top: 22px;
-    padding: 15px;
+    margin-top: 12px;
+    padding: 1px;
+    text-align: left;
     
 }
 
-.inf-box img{
+.info-box img{
     height: 70px;
     margin: 10px;
     float: left;
@@ -121,17 +119,17 @@ a.info-box{
 .info-box h3{
     padding: 0;
     margin-bottom: 0px;
-    width: 90%;
-    color: #572800;
-    text-align-last:left;       
+    width: 67%;
+    color: #572800;       
 }
 
 .info-box p{
-   margin: 0;
-    padding: 0;
+   margin: 0px;
+    padding: 90;
     width: 90%;
     color: #131313;
     text-align:left;
+    
 }
 
 .info-box img.right{
@@ -141,16 +139,15 @@ a.info-box{
     
 }
 
-/*================INFO BOX FULL==============*/
+/*================INFO-BOX-FULL==============*/
 
 #info-box-full{
-    background: rgba(255,255,255.8);
+    background: rgba(255,255,255, .8);
     width: 90%;
     display: block;
     margin: auto;
     margin-top: 12px;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
 #info-box-full img{
@@ -159,6 +156,12 @@ a.info-box{
 
 #info-b0x-full h3{
     text-align: center;
+}
+
+#info-box-full p{
+    text-align: left;
+    text-decoration: none;
+    display: block;
 }
 
 /*================WEATHER==============*/
@@ -175,6 +178,7 @@ h1.info-box-weather-icon{
     font-weight: 200;
     padding: 0;
     margin: 0;
+    background:url('images/map-blur.png'); 
     
 }
 
@@ -204,7 +208,7 @@ textarea{
 
 .botton{
     display: block;
-    width: 100%;
+    width: 90%;
     background-color: forestgreen;
     text-decoration: none;
     text-align: center;
